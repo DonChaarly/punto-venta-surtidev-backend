@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.surtidoraoaxaca_punto_venta_surtidora_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Empleados</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Departamentos</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Compras</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Ventas</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Categorias</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Detallesventasarticulos</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Detallesprovedoresarticulos</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Articulos</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Provedores</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Cajas</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Promociones</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Detallescomprasarticulos</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Usuarios</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Puestos</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Clientes</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Roles</class>
+    <class>com.surtidoraoaxaca.punto_venta_surtidora.models.entitys.Empresas</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/surtidoradb?useSSL=false&amp;useTimezone=true&amp;serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="admin"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="12341234"/>
+    </properties>
+  </persistence-unit>
+</persistence>
